@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.squishums.android.pixelatedmood"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+	<uses-sdk android:minSdkVersion="10" />
+    <uses-feature
+        android:name="android.software.live_wallpaper"
+		android:required="true" />
+
+    <application
+        android:debuggable="true"
+        android:label="@string/service_title" >"
+        <service
+            android:name="com.squishums.android.pixelatedmood.PixelatedMood"
+            android:enabled="true"
+            android:permission="android.permission.BIND_WALLPAPER"
+            android:label="Pixelated Mood" >
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/wallpaper" />
+        </service>
+        
+        <activity
+            android:label="@string/options_title"
+            android:name=".preferences.OptionsActivity"
+            android:exported="true" >
+        </activity>
+        
+    </application>
+</manifest>

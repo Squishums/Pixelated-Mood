@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/listItem_options" >
+    
+    <TextView android:id="@+id/options_title"
+        style="@style/listItem_widgetRight_title"
+        android:layout_above="@android:id/summary"
+        android:text="TITLE TEXT" />
+        
+    <TextView android:id="@+id/options_summary"
+        style="@style/listItem_widgetRight_summary"
+        android:text="SUMMARY TEXT" />
+    
+    <RadioButton android:id="@+id/options_radioButton"
+        style="@style/listItem_widgetRight_widget" />
+</RelativeLayout>

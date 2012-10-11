@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropPresets>
+    <DropPrefs
+        count="400"
+        width="16"
+        height="16" />
+    
+    <PhysicsPrefs
+        veloDampenFactor="0.9" />
+    
+    <WindPrefs
+        angle="-1.570796326794896619"
+        force="1.0"
+        forceVar="0.2" />
+    
+    <PulsarPrefs
+        force="-300"
+        falloffExponent="1.4"
+        minDistance="20" />
+    
+    <RenderPrefs
+        bitmap1="drawable/drop_snowflake1"
+        bitmap2="drawable/drop_snowflake2"
+        bitmap3="drawable/drop_snowflake3"
+        color1="FFFFFFFF" />
+</DropPresets>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DropPresets>
+    <DropPrefs
+        count="700"
+        width="16"
+        height="16" />
+    
+    <PhysicsPrefs
+        veloDampenFactor="0.95" />
+    
+    <WindPrefs
+        angle="-1.570796326794896619"
+        force="1.0"
+        forceVar="1" />
+    
+    <PulsarPrefs
+        force="-200"
+        falloffExponent="1.35"
+        minDistance="50" />
+    
+    <RenderPrefs
+        trails="true"
+        bitmap1="drawable/drop_ash1"
+        bitmap2="drawable/drop_ash2"
+        bitmap3="drawable/drop_ash3"
+        bitmap4="drawable/drop_ash4"
+        bitmat5="drawable/drop_ash5"
+        bitmap6="drawable/drop_ash6"
+        bitmap7="drawable/drop_ash7"
+        color1="FF000000"
+        color2="FF222222"
+        color3="FF444444" />
+</DropPresets>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Misc / Meta -->
+    <string name="service_title">Pixelated Mood</string>
+    <string name="service_description">Slow falling blocks!</string>
+
+    <!-- Options Main -->
+    <string name="options_title">Pixelated Options</string>
+    <string name="options_main_button_createSet">Create custom set</string>
+    <!--     Presets -->
+    <string-array name="options_dropTypes">
+        <item>Snowflakes</item>
+        <item>Raindrops</item>
+        <item>Geometry</item>
+        <item>Bubbles</item>
+        <item>Ashes</item>
+    </string-array>
+    
+    <!-- Options Set Creation -->
+    <string name="options_setCreation_title">Create Your Own Drop Set</string>
+    <string name="options_setCreation_editNameCategoryTitle">Name</string>
+    <string name="options_setCreation_editNameTitle">Drop Set Name</string>
+    <string name="options_setCreation_editNameSummary">Edit the set\'s name</string>
+    
+</resources>

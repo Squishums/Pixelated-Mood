@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- System-wide Data -->
+    <string name="options_currentDropKey">CurrentDropKey</string>
+    
+    
+    <!-- No package -->
+    <string name="options_preferenceKey_name">Name</string>
+    
+    <!-- DropPrefs -->
+    <string name="options_sqlKey_dropPrefs">DropPrefs</string>
+    <string name="options_sqlKey_dropPrefs_count">Count</string>
+    <string name="options_sqlKey_dropPrefs_width">Width</string>
+    <string name="options_sqlKey_dropPrefs_height">Height</string>
+    
+    <!-- PhysicsPrefs -->
+    <string name="options_sqlKey_physicsPrefs">PhysicsPrefs</string>
+    <string name="options_sqlKey_physicsPrefs_use">Use</string>
+    <string name="options_sqlKey_physicsPrefs_veloDampenFactor">VeloDampenFactor</string>
+    
+    <!-- WindPrefs -->
+    <string name="options_sqlKey_windPrefs">WindPrefs</string>
+    <string name="options_sqlKey_windPrefs_use">Use</string>
+    <string name="options_sqlKey_windPrefs_angle">Angle</string>
+    <string name="options_sqlKey_windPrefs_force">Force</string>
+    <string name="options_sqlKey_windPrefs_forceVariance">ForceVar</string>
+    
+    <!-- GravityPrefs -->
+    <string name="options_sqlKey_gravityPrefs">GravityPrefs</string>
+    <string name="options_sqlKey_gravityPrefs_use">Use</string>
+    <string name="options_sqlKey_gravityPrefs_force">Force</string>
+    <string name="options_sqlKey_gravityPrefs_useZ">UseZ</string>
+    
+    <!-- PulsarPrefs -->
+    <string name="options_sqlKey_pulsarPrefs">PulsarPrefs</string>
+    <string name="options_sqlKey_pulsarPrefs_use">Use</string>
+    <string name="options_sqlKey_pulsarPrefs_force">Force</string>
+    <string name="options_sqlKey_pulsarPrefs_falloffExponent">FalloffExponent</string>
+    <string name="options_sqlKey_pulsarPrefs_minDistance">MinDistance</string>
+    
+    <!-- RenderPrefs -->
+    <string name="options_sqlKey_renderPrefs">RenderPrefs</string>
+    <string name="options_sqlKey_renderPrefs_bitmap">Bitmap</string>
+    <string name="options_sqlKey_renderPrefs_color">Colour</string>
+    
+</resources>
